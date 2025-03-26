@@ -13,9 +13,9 @@ const TELEGRAM_BOT_TOKEN = "7579031103:AAENMcPyLflXtsxiY9BNOt_80l7dBSEKffU"; // 
 const TELEGRAM_CHAT_ID = "96615888"; // Substitua pelo ID do chat (ou grupo) para onde quer enviar
 
 // Servir o index.html na raiz
-app.get("/", (req, res) => {
-  res.sendFile(path.join(__dirname, "index.html"));
-});
+//app.get("/", (req, res) => {
+//  res.sendFile(path.join(__dirname, "index.html"));
+//});
 
 
 app.post("/send-location", async (req, res) => {
